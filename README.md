@@ -1,6 +1,7 @@
 # Bright_money_plaid_assignment
 
 ## Set up
+##### Note: create enviroment variable to isolate the app and better experience.
 
 ### Install Dependencies
 ```bash
