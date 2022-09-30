@@ -22,3 +22,20 @@
 ```bash
 --- systemctl start rabbitmq-server
 ```
+### Create and Apply Migrations
+```bash
+--- python manage.py makemigrations
+--- python manage.py migrate
+```
+
+
+### Start Celery Worker Process
+```bash
+--- celery -A Bright_money_plaid_assignment worker -l info
+```
+
+
+### Start Your Django App
+```bash
+--- python manage.py runserver
+```
