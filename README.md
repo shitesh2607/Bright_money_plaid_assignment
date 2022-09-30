@@ -29,14 +29,15 @@
 --- python manage.py migrate
 ```
 
-
 ### Start Celery Worker Process
 ```bash
 --- celery -A Bright_money_plaid_assignment worker -l info
 ```
 
-
 ### Start Your Django App
 ```bash
 --- python manage.py runserver
 ```
+### API's Endpoint
+![path](https://user-images.githubusercontent.com/72928430/193238242-8b86be96-48ad-411f-8a00-26598eb0c463.png)
+
