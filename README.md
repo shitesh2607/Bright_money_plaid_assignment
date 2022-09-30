@@ -10,3 +10,15 @@
 ```bash
 --- sudo apt-get install rabbitmq-server (Ubuntu)
 ```
+
+### Enable RabbitMQ server
+
+```bash
+--- systemctl enable rabbitmq-server
+```
+
+### Start RabbitMQ server
+
+```bash
+--- systemctl start rabbitmq-server
+```
